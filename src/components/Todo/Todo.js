@@ -10,12 +10,12 @@ function Todo() {
 
     return (
         <div className="todo">
-            <Header title="Todo" />
-            <AddInput 
+            <Header title="My Header" />
+            <AddInput
                 setTodos={setTodos}
                 todos={todos}
             />
-            <TodoList 
+            <TodoList
                 todos={todos}
                 setTodos={setTodos}
             />
